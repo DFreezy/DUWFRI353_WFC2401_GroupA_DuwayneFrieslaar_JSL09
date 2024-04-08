@@ -36,7 +36,7 @@ fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
     })
     .catch(err => console.error(err));
 
-// Function to update the current time every second
+// Function to update the current time every seconds
 function getCurrentTime() {
     const date = new Date();
     // Display the current time in short time format
