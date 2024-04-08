@@ -40,10 +40,10 @@ fetch("https://api.coingecko.com/api/v3/coins/dogecoin")
 function getCurrentTime() {
     const date = new Date();
     // Display the current time in short time format
-    document.getElementById("time").textContent = date.toLocaleTimeString("en-us", {timeStyle: "short"});
+    document.getElementById("time").textContent = date.toLocaleTimeString("en-us", {timeStyle: "medium"});
 }
 
-// Update the current time every second
+// Update the current time every seconds
 setInterval(getCurrentTime, 1000);
 
 // Fetch weather data based on user's geolocation and update the weather section
